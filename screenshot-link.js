@@ -88,5 +88,5 @@ app.get('/', async (req, res) => {
 // Start Server
 app.listen(PORT, '0.0.0.0', () => {
     console.log(`[+] Screenshot Server running on http://0.0.0.0:${PORT}`);
-    console.log(`[+] Open http://<YOUR_IP>:${PORT} to trigger a capture.`);
+    console.log(`[+] Open http://<127.0.0.1>:${PORT} to trigger a capture.`);
 });
